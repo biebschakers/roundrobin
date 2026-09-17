@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "sevilla",
-  "generated": "2026-09-17T02:40:18.812Z",
+  "generated": "2026-09-17T10:42:27.650Z",
   "event": {
     "id": "sev_6bmyrj",
     "name": "",
@@ -186,6 +186,17 @@
       "name": "Aleksandr Ryzhenkov",
       "club": "",
       "rating": 0,
+      "ts": 0,
+      "group": "",
+      "presence": "pending"
+    },
+    {
+      "id": "sev_575t47",
+      "firstName": "Test",
+      "lastName": "Test",
+      "name": "Test Test",
+      "club": "Schaakclub Oegstgeest ?80",
+      "rating": 1775,
       "ts": 0,
       "group": "",
       "presence": "pending"
