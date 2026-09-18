@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl" data-theme="dark" class="js" style="--flame: #EE7203; --flame-2: #F29542; --flame-ink: #FFFFFF; --fglow-2: rgba(238,114,3,.5); --fsoft: rgba(238,114,3,.08); --zebra-h: rgba(238,114,3,.07); --rail-w: 192px;"><head>
+<html lang="nl" data-theme="dark" class="js wall-ready" style="--flame: #EE7203; --flame-2: #F29542; --flame-ink: #FFFFFF; --fglow-2: rgba(238,114,3,.5); --fsoft: rgba(238,114,3,.08); --zebra-h: rgba(238,114,3,.07); --rail-w: 192px;"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="There's a rapid tournament in the Delfshaven Library this saturday!">
@@ -2730,7 +2730,7 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
   #mainTable tbody td.c-rank::before{ display: none; }
 }</style>
 </head>
-<body class="revisited preview">
+<body class="preview">
 <!-- ═══════════════════ SIDEBAR ═══════════════════ -->
 <aside class="rail">
   <div class="rail-logo" id="railLogo" tabindex="0" role="button" aria-label="Home" title="Home">
@@ -2741,7 +2741,7 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
     
     
   </div>
-  <nav class="rail-nav" id="railNav" aria-label="Hoofdmenu"><button type="button" class="ritem active" data-nav="info" data-action="nav" data-page="home" data-target="dossier"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"></rect><path fill="currentColor" stroke="none" d="M12 4h6a2 2 0 0 1 2 2v6h-8V4zM4 12h8v8H6a2 2 0 0 1-2-2v-6z"></path></svg><span class="lbl" data-i18n="navInfo">Overzicht</span></button><button type="button" class="ritem" data-nav="field" data-action="nav" data-page="home" data-target="field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2"></path><rect x="9" y="2.5" width="6" height="3.5" rx="1"></rect><path d="m9 14 2 2 4-4.5"></path></svg><span class="lbl" data-i18n="navField">Spelers</span></button><div class="rail-sep" aria-hidden="true"></div><button type="button" class="ritem" data-nav="about" data-action="nav" data-page="about"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.5C10 5 7 4.5 4 4.5v13c3 0 6 .5 8 2 2-1.5 5-2 8-2v-13c-3 0-6 .5-8 2v13"></path></svg><span class="lbl" data-i18n="navAbout">Over ons</span></button></nav>
+  <nav class="rail-nav" id="railNav" aria-label="Hoofdmenu"><button type="button" class="ritem" data-nav="info" data-action="nav" data-page="home" data-target="dossier"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"></rect><path fill="currentColor" stroke="none" d="M12 4h6a2 2 0 0 1 2 2v6h-8V4zM4 12h8v8H6a2 2 0 0 1-2-2v-6z"></path></svg><span class="lbl" data-i18n="navInfo">Overzicht</span></button><button type="button" class="ritem active" data-nav="field" data-action="nav" data-page="home" data-target="field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2"></path><rect x="9" y="2.5" width="6" height="3.5" rx="1"></rect><path d="m9 14 2 2 4-4.5"></path></svg><span class="lbl" data-i18n="navField">Spelers</span></button><div class="rail-sep" aria-hidden="true"></div><button type="button" class="ritem" data-nav="about" data-action="nav" data-page="about"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.5C10 5 7 4.5 4 4.5v13c3 0 6 .5 8 2 2-1.5 5-2 8-2v-13c-3 0-6 .5-8 2v13"></path></svg><span class="lbl" data-i18n="navAbout">Over ons</span></button></nav>
   
   <div class="rail-foot">
     <div class="rail-toggles">
@@ -2763,7 +2763,7 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
     <div class="social-row">
     <a class="social social-ig" href="https://www.instagram.com/biebschakers010/" target="_blank" rel="noopener" data-action="ig" aria-label="Instagram">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
-      <span class="bubble" style="--bshift: 9.446560859680176px; margin-left: 9.44656px;"><span class="bubble-txt">Instagram</span></span>
+      <span class="bubble"><span class="bubble-txt">Instagram</span></span>
     </a>
     <a class="social social-li" href="https://lichess.org/@/Biebschakers_010" target="_blank" rel="noopener" data-action="li" aria-label="Lichess">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M10.457 6.161a.237.237 0 0 0-.296.165c-.8 2.785 2.819 5.579 5.214 7.428.653.504 1.216.939 1.591 1.292 1.745 1.642 2.564 2.851 2.733 3.178a.24.24 0 0 0 .275.122c.047-.013 4.726-1.3 3.934-4.574a.257.257 0 0 0-.023-.06L18.204 3.407 18.93.295a.24.24 0 0 0-.262-.293c-1.7.201-3.115.435-4.5 1.425-4.844-.323-8.718.9-11.213 3.539C.334 7.737-.246 11.515.085 14.128c.763 5.655 5.191 8.631 9.081 9.532.993.229 1.974.34 2.923.34 3.344 0 6.297-1.381 7.946-3.85a.24.24 0 0 0-.372-.3c-3.411 3.527-9.002 4.134-13.296 1.444-4.485-2.81-6.202-8.41-3.91-12.749C4.741 4.221 8.801 2.362 13.888 3.31c.056.01.115 0 .165-.029l.335-.197c.926-.546 1.961-1.157 2.873-1.279l-.694 1.993a.243.243 0 0 0 .02.202l6.082 10.192c-.193 2.028-1.706 2.506-2.226 2.611-.287-.645-.814-1.364-2.306-2.803-.422-.407-1.21-.941-2.124-1.56-2.364-1.601-5.937-4.02-5.391-5.984a.239.239 0 0 0-.165-.295z"></path></svg>
@@ -2784,7 +2784,7 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
 <!-- ═══════════════════ SITE POPOVER ═══════════════════ -->
 
 <!-- ═══════════════════ MOBILE CHROME ═══════════════════ -->
-<div id="mBar">
+<div id="mBar" class="">
   <button id="burger" data-action="drawer" aria-label="Menu" aria-expanded="false">
     <span class="bar"></span><span class="bar"></span><span class="bar"></span>
   </button>
@@ -2805,14 +2805,14 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
   </span>
 </div>
 <div id="scrim" data-action="drawerClose"></div>
-<aside id="drawer" aria-label="Menu"><nav class="dr-nav dr-pill"><button type="button" class="ritem active" data-nav="info" data-action="nav" data-page="home" data-target="dossier" data-close-drawer=""><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"></rect><path fill="currentColor" stroke="none" d="M12 4h6a2 2 0 0 1 2 2v6h-8V4zM4 12h8v8H6a2 2 0 0 1-2-2v-6z"></path></svg><span class="lbl" data-i18n="navInfo">Overzicht</span></button><button type="button" class="ritem" data-nav="field" data-action="nav" data-page="home" data-target="field" data-close-drawer=""><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2"></path><rect x="9" y="2.5" width="6" height="3.5" rx="1"></rect><path d="m9 14 2 2 4-4.5"></path></svg><span class="lbl" data-i18n="navField">Spelers</span></button><div class="dr-div" aria-hidden="true"></div><button type="button" class="ritem" data-nav="about" data-action="nav" data-page="about" data-close-drawer=""><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.5C10 5 7 4.5 4 4.5v13c3 0 6 .5 8 2 2-1.5 5-2 8-2v-13c-3 0-6 .5-8 2v13"></path></svg><span class="lbl" data-i18n="navAbout">Over ons</span></button></nav><a class="ritem wa-cta dr-pill" data-action="wa" href="https://chat.whatsapp.com/DdW0Ine597QBNNb1cA9qQL" target="_blank" rel="noopener" data-close-drawer=""><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"></path></svg><span class="lbl">Word biebschaker</span></a><div class="dr-social dr-pill" id="drSocial">
+<aside id="drawer" aria-label="Menu"><nav class="dr-nav dr-pill"><button type="button" class="ritem" data-nav="info" data-action="nav" data-page="home" data-target="dossier" data-close-drawer=""><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"></rect><path fill="currentColor" stroke="none" d="M12 4h6a2 2 0 0 1 2 2v6h-8V4zM4 12h8v8H6a2 2 0 0 1-2-2v-6z"></path></svg><span class="lbl" data-i18n="navInfo">Overzicht</span></button><button type="button" class="ritem active" data-nav="field" data-action="nav" data-page="home" data-target="field" data-close-drawer=""><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2"></path><rect x="9" y="2.5" width="6" height="3.5" rx="1"></rect><path d="m9 14 2 2 4-4.5"></path></svg><span class="lbl" data-i18n="navField">Spelers</span></button><div class="dr-div" aria-hidden="true"></div><button type="button" class="ritem" data-nav="about" data-action="nav" data-page="about" data-close-drawer=""><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.5C10 5 7 4.5 4 4.5v13c3 0 6 .5 8 2 2-1.5 5-2 8-2v-13c-3 0-6 .5-8 2v13"></path></svg><span class="lbl" data-i18n="navAbout">Over ons</span></button></nav><a class="ritem wa-cta dr-pill" data-action="wa" href="https://chat.whatsapp.com/DdW0Ine597QBNNb1cA9qQL" target="_blank" rel="noopener" data-close-drawer=""><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"></path></svg><span class="lbl">Word biebschaker</span></a><div class="dr-social dr-pill" id="drSocial">
     <a class="social social-ig" href="https://www.instagram.com/biebschakers010/" target="_blank" rel="noopener" data-action="ig" aria-label="Instagram">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
       <span class="bubble"><span class="bubble-txt">Instagram</span></span>
     </a>
     <a class="social social-li" href="https://lichess.org/@/Biebschakers_010" target="_blank" rel="noopener" data-action="li" aria-label="Lichess">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M10.457 6.161a.237.237 0 0 0-.296.165c-.8 2.785 2.819 5.579 5.214 7.428.653.504 1.216.939 1.591 1.292 1.745 1.642 2.564 2.851 2.733 3.178a.24.24 0 0 0 .275.122c.047-.013 4.726-1.3 3.934-4.574a.257.257 0 0 0-.023-.06L18.204 3.407 18.93.295a.24.24 0 0 0-.262-.293c-1.7.201-3.115.435-4.5 1.425-4.844-.323-8.718.9-11.213 3.539C.334 7.737-.246 11.515.085 14.128c.763 5.655 5.191 8.631 9.081 9.532.993.229 1.974.34 2.923.34 3.344 0 6.297-1.381 7.946-3.85a.24.24 0 0 0-.372-.3c-3.411 3.527-9.002 4.134-13.296 1.444-4.485-2.81-6.202-8.41-3.91-12.749C4.741 4.221 8.801 2.362 13.888 3.31c.056.01.115 0 .165-.029l.335-.197c.926-.546 1.961-1.157 2.873-1.279l-.694 1.993a.243.243 0 0 0 .02.202l6.082 10.192c-.193 2.028-1.706 2.506-2.226 2.611-.287-.645-.814-1.364-2.306-2.803-.422-.407-1.21-.941-2.124-1.56-2.364-1.601-5.937-4.02-5.391-5.984a.239.239 0 0 0-.165-.295z"></path></svg>
-      <span class="bubble" style="--bshift: 0px;"><span class="bubble-txt">Lichess</span></span>
+      <span class="bubble"><span class="bubble-txt">Lichess</span></span>
     </a>
   </div></aside>
 <!-- mobile call-to-action: always visible on the home page. It reveals the
@@ -2827,7 +2827,7 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
 <div class="open-media" id="openMedia"></div>
 <!-- ═══════════════════ MAIN ═══════════════════ -->
 <main>
-  <div id="pageHome" class="">
+  <div id="pageHome">
     <!-- HERO -->
     <section id="open" class="sec">
       <div class="wrap open-grid">
@@ -2846,6 +2846,8 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
     <div id="heroSlot"></div>
     <!-- INFO CARD: fixed corner card on desktop; on mobile the runtime moves
          it into the overview (InfoCard.placeCardLayout) -->
+    
+    <!-- legacy spacer (kept harmless; hidden by CSS) -->
     <div class="clock-card" id="clockCard" data-state="full">
       <div class="cc-front">
         <div class="cc-roll" style="">
@@ -2876,7 +2878,8 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
               <span class="v" data-i18n="fTempoV">10+0</span>
               <span class="arr" aria-hidden="true"><svg viewBox="0 0 512 512" aria-hidden="true"><path transform="translate(0,512) scale(1,-1)" fill="currentColor" d="M405 257Q405 242 395 231L209 45Q199 35 183.0 35.0Q167 35 157 45L135 67Q125 77 125 93Q125 108 135 118L274 257L135 396Q125 406 125.0 422.0Q125 438 135 448L157 469Q168 480 183.0 480.0Q198 480 209 469L395 283Q405 273 405 257Z"></path></svg></span>
             </button></div>
-          <div class="cc-cap" data-goto="field">
+          
+        <div class="cc-cap" data-goto="field">
             <div class="cap-track">
               <div class="cap-bar" id="capBar"><i id="capFill" aria-hidden="true" style="width: 0%;"></i><span class="cap-full-txt" id="capFullTxt" data-i18n="capFullTxt">lijst vol</span></div>
             </div>
@@ -2947,15 +2950,14 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
               </span>
               <span class="live-pill" id="phasePill" hidden=""><i aria-hidden="true"></i><span id="phasePillTxt">Live</span></span>
             </div>
-          </div>
-        </div>
-        <div class="cc-cta" style="">
+          </div></div>
+        
+      <div class="cc-cta" style="">
           <button class="btn btn-cta enter" type="button" data-action="join">
             <span id="ctaLbl"><span class="cta-txt" data-i18n="join">Aanmelden</span><span class="cta-fee"> (€5,00)</span></span><span class="cta-reveal" aria-hidden="true"><span id="ctaHover">Ik doe mee!</span></span>
           </button>
           
-        </div>
-      </div>
+        </div></div>
       <!-- mobile spot view: the time/date rows park the overview schedule or
            calendar here (see openSpotView in runtime.js); back returns it -->
       <div class="cc-spotview" id="ccSpotView" hidden="">
@@ -2971,9 +2973,7 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
           <span data-i18n="calAdd">Toevoegen aan agenda</span>
         </button>
       </div>
-    </div>
-    <!-- legacy spacer (kept harmless; hidden by CSS) -->
-    <div class="cc-spacer" aria-hidden="true"></div>
+    </div><div class="cc-spacer" aria-hidden="true"></div>
     <div class="join-view" id="joinWin">
       <div class="join-head">
         <button type="button" class="join-back" data-action="joinClose" aria-label="Terug">
@@ -3101,7 +3101,7 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
       <section id="field" class="sec">
         <div class="wrap">
           <div class="chart rv" style="--d:.12s">
-            <table id="mainTable">
+            <table id="mainTable" class="">
               <thead>
               <tr class="reg-top-row"><th colspan="4"><div class="reg-top rv" style="--d:.11s">
                 <div class="reg-cell reg-left reg-title-cell">
@@ -3250,7 +3250,7 @@ body.editing :is(.editable, [data-i18n], [data-edit]).is-empty::before{ content:
     </div>
   </div>
   <!-- ABOUT PAGE -->
-  <div id="pageAbout" class="about-enter page-hidden">
+  <div id="pageAbout" class="page-hidden">
     <section id="about" class="sec">
       <div class="wrap">
         <h1 class="about-title" data-i18n="aboutH">Over ons</h1>
@@ -7541,26 +7541,10 @@ return for GET ?mode=read:
            fixed node with no cache slot of its own. */
         if (heroTitleRoll.classList.contains('is-faded')) heroTitleRoll.classList.remove('is-faded');
         /* overlay exit trigger: the bookmark is either fully in view or
-           completely gone — nothing in between. on desktop it retracts the
-           moment the board has swallowed the whole ribbon (board top
-           scrolled up to the banner top); on mobile it retracts the moment
-           its bottom touches the dossier's top border (dossier top scrolled
-           up to the banner bottom). restores solely back at the very top —
-           two far-apart boundaries, so hovering anywhere mid-page can't flap
-           the animation. written only on change. */
-        var markTop = 0, markBottom = 0;
-        try { var _r = heroTitleRoll.getBoundingClientRect(); markTop = _r.top || 0; markBottom = (_r.bottom != null ? _r.bottom : markTop + (_r.height || 0)); } catch (e) { markTop = 0; markBottom = 0; }
-        /* mobile banner is a fixed top-right ribbon above the dossier, so the
-           contact point is its bottom edge vs the dossier top; desktop parks
-           it at the hero's bottom-right, where the board swallowing the whole
-           ribbon (board top vs banner top) is the contact. */
-        var coverAt = (window.innerWidth < 961)
-          ? Math.max(0, secTop.dossierTop - markBottom)
-          : Math.max(0, secTop.boardOff - markTop);
-        var bm = heroTitleRoll._bm || 'full';
-        if (secTop.dossierDead) bm = 'full';
-        else if (bm === 'full') { if (y >= coverAt) bm = 'gone'; }
-        else if (y <= 4) bm = 'full';
+           completely gone — nothing in between. it appears solely when the
+           page is at the very top and retracts on any scroll, on both
+           desktop and mobile. written only on change. */
+        var bm = (y <= 4) ? 'full' : 'gone';
         if (heroTitleRoll._bm !== bm) {
           heroTitleRoll._bm = bm;
           document.body.classList.toggle('bm-gone', bm === 'gone');
